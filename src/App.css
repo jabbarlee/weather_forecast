@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+#option-selector{
+  padding: 10px;
+  border: 0.1px solid rgb(182, 191, 212);
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-widget{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid rgb(182, 191, 212);
+  border-radius: 25px;
+  width: 160px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(213, 219, 233);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#temp-side{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#temp-label{
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+#info-side{
+  border: 1px solid rgb(182, 191, 212);
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+  width: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#info-label{
+  font-size: 14px;
 }
