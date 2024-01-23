@@ -20,6 +20,10 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+.option{
+  margin: 20px;
+}
+
 #temp-side{
   display: flex;
   flex-direction: column;
@@ -37,4 +41,15 @@
 }
 #info-label{
   font-size: 14px;
+}
+
+
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#city-option{
+  padding: 10px;
+  border-radius: 15px;
 }
